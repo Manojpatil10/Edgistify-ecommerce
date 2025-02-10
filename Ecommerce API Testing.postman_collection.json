@@ -1,0 +1,142 @@
+{
+	"info": {
+		"_postman_id": "5be86fc3-f179-4676-95d6-7df84cc9572d",
+		"name": "Ecommerce API Testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41970288"
+	},
+	"item": [
+		{
+			"name": "user registration",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"john_doe\",\r\n  \"email\": \"john.doe@example.com\",\r\n  \"password\": \"password123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"manoj@gmail.com\",\r\n  \"password\": \"Manoj123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add to cart",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"ID\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3YTkxNzdiZDM2NTBhYzJhYzI2MGRlZCIsImlhdCI6MTczOTEzNDg2OSwiZXhwIjoxNzQxNzI2ODY5fQ.OR3i3MTQnN3X9SjkSPXn9Sn8dyPUzeHya3O1AR2DIZA\",\r\n  \"id\": \"67a7623898f51670ea0d81c7\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/addToCart",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"addToCart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "order place",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"orderData\": {\r\n    \"customerName\": \"Manoj Patil\",\r\n    \"customerEmail\": \"manoj@gmail.com\",\r\n    \"products\": [\r\n      {\r\n        \"id\": \"67a7623898f51670ea0d81c8\",\r\n        \"name\": \"shoe\",\r\n        \"quantity\": 2,\r\n        \"price\": 500\r\n      },\r\n      {\r\n        \"id\": \"67a7623898f51670ea0d81c6\",\r\n        \"name\": \"mobile\",\r\n        \"quantity\": 1,\r\n        \"price\": 700\r\n      }\r\n    ],\r\n    \"totalPrice\": 1700,\r\n    \"shippingAddress\": \"123 Street, City, State, 12345\",\r\n    \"paymentStatus\": \"Pending\",\r\n    \"orderStatus\": \"Pending\",\r\n    \"paymentMethod\": \"Credit Card\",\r\n    \"orderNotes\": \"Please deliver by noon\"\r\n  },\r\n  \"ID\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3YTkxNzdiZDM2NTBhYzJhYzI2MGRlZCIsImlhdCI6MTczOTEzNDg2OSwiZXhwIjoxNzQxNzI2ODY5fQ.OR3i3MTQnN3X9SjkSPXn9Sn8dyPUzeHya3O1AR2DIZA\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/placeOrder",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"placeOrder"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete account",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/deleteAccount/67a91683d3650ac2ac260de7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"deleteAccount",
+						"67a91683d3650ac2ac260de7"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
