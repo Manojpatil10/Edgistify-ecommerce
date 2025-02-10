@@ -1,0 +1,76 @@
+.contact {
+  margin-top: 45px;
+}
+
+.map iframe {
+  height: 400px;
+  width: 100%;
+}
+
+.form {
+  margin: 80px 0;
+}
+
+.formTxt h2 {
+  font-weight: 600;
+  font-size: 40px;
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.formTxt span {
+  color: rgba(0, 0, 0, 0.89);
+  font-size: 14px;
+}
+
+.formTxt h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 15px 0;
+  color: rgba(0, 0, 0, 0.89);
+}
+
+.formTxt p {
+  color: rgba(0, 0, 0, 0.89);
+  font-size: 14px;
+}
+
+.formDetails {
+  flex-basis: 48%;
+}
+
+.formDetails input{
+  width: 100%;
+  padding: 15px 20px;
+  color: #aaa;
+  outline: none;
+  border: 1px solid #aaa;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.formDetails textarea{
+  width: 100%;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  color: #aaa;
+  outline: none;
+  border: 1px solid #aaa;
+  font-size: 14px;
+  resize: none;
+}
+
+.submitBtn {
+  width: 100%;
+  padding: 15px 25px;
+  color: #fff;
+  font-weight: 500;
+  background: #000;
+  outline: none;
+  border: none;
+  margin-bottom: 15px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}

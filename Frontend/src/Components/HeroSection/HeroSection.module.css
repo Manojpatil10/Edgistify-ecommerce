@@ -1,0 +1,69 @@
+.heroSection{
+  min-height: 92vh !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroSection1 {
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/public/Images/Background/home2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.heroSection2 {
+  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('/public/Images/Background/slideshow-1_f9506a0f-cd22-46e1-89e6-dfb216eda48b_1920x950.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.heroSection3 {
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/public/Images/Background/s1_1920x1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.heroSectionInner{
+  height: 100%;
+}
+
+.heroH2 {
+  font-size: 35px;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.heroH1 {
+  font-size: 60px;
+  line-height: 64px;
+  color: #fff;
+}
+
+.heroH4 {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.heroPara {
+  font-size: 15px;
+  color: #fff;
+}
+
+.heroBtn {
+  background-color: #000;
+  color: #fff;
+  border: 0;
+  font-size: 20px;
+  height: 60px;
+  width: 300px;
+  transition: all 0.3s ease-in-out;
+}
+
+.heroBtn:hover {
+  background-color: #fff;
+  color: #000;
+}

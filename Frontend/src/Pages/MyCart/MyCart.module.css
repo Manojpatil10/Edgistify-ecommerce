@@ -1,0 +1,140 @@
+.main{
+  min-height: 90vh;
+  padding: 30px 0;
+}
+
+.cartContainer {
+  width: 100%;
+  padding: 20px 0;
+  background: #fff;
+}
+
+.cartHeading {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ddd;
+}
+
+.productsDiv {
+  height: 70vh;
+  overflow: auto;
+}
+
+.emptyCart {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.emptyCart img {
+  width: 150px;
+  margin-bottom: 15px;
+}
+
+.emptyCart p {
+  font-size: 18px;
+  color: #777;
+}
+
+.shopNowButton {
+  background: teal;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.shopNowButton:hover {
+  background: #005f5f;
+}
+
+.cartItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.productImage {
+  width: 120px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.productDetails {
+  padding-left: 30px;
+  flex-grow: 1;
+}
+
+.productBrand {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.productName {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.productPrice {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.quantityControls {
+  display: flex;
+  align-items: center;
+}
+
+.quantityControls button {
+  background: #eee;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.quantityControls span {
+  margin: 0 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.deleteIcon {
+  font-size: 20px;
+  color: red;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.deleteIcon:hover {
+  color: darkred;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.buttonContainer button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  background: #333;
+  color: #fff;
+  margin: 5px;
+}
+
+.buttonContainer button:hover {
+  background: #555;
+}

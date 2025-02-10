@@ -1,0 +1,200 @@
+.main{
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkoutContainer {
+  padding: 50px 0;
+}
+
+.inputField, .textareaField {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  background-color: #fafafa;
+  transition: border-color 0.3s ease-in-out;
+  margin-bottom: 7px;
+}
+
+.inputField:focus, .textareaField:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.textareaField {
+  height: 100px;
+  resize: vertical;
+}
+
+.orderSummary {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.products{
+  margin-bottom: 15px;
+  border-bottom: 1px solid #767676;
+}
+
+.orderDiv{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.paymentMethod {
+  margin-top: 20px;
+}
+
+
+.radioContainer label {
+  font-size: 1rem;
+}
+
+.paymentDetails {
+  margin-top: 20px;
+}
+
+.placeOrderButton {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.2rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  margin-top: 15px;
+}
+
+.placeOrderButton:hover {
+  background-color: #218838;
+}
+
+
+.otpDiv{
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.otpContainer {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #222;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.otpContainer h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.otpContainer p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.otpContainer input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.otpContainer button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  cursor: pointer;
+}
+
+.message {
+  font-size: 14px;
+  color: red;
+  margin-top: 10px;
+}
+
+
+.orderComplete {
+  border: 2px solid #ddd;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.checkIcon {
+  font-size: 40px;
+  color: green;
+  margin-bottom: 20px;
+}
+
+.orderH2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.orderPara {
+  font-size: 16px;
+  color: #666;
+}
+
+.orderInfo {
+  margin-top: 30px;
+}
+
+.orderInfoItem {
+  margin-bottom: 15px;
+}
+
+.orderInfoItem label {
+  font-weight: bold;
+  color: #333;
+}
+
+.orderInfoItem span {
+  display: block;
+  font-size: 16px;
+  color: #555;
+}
+
+.orderDetails {
+  margin-top: 20px;
+}
+
+.orderDetail {
+  margin-bottom: 10px;
+}
+
+.orderDetail label {
+  font-weight: bold;
+  color: #333;
+}
+
+.orderDetail span {
+  display: block;
+  font-size: 16px;
+  color: #555;
+}
+
+
